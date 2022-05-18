@@ -1,96 +1,88 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-transform: capitalize;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
 }
-header{
-    background-color: gold;
-        
+header {
+  background-color: gold;
 }
-h1{
-    text-align: center;
-    color: black;
-    font-size: 3rem;
-    padding: 1rem 0;
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  padding: 1rem 0;
 }
-table{
-    width: 100%;
-    height: 20rem;
-    line-height: 2.5rem;
-
+table {
+  width: 100%;
+  height: 20rem;
+  line-height: 2.5rem;
 }
-table thead{
-    background-color: grey;
-    color: white;
+table thead {
+  background-color: grey;
+  color: white;
 }
-table tbody .tdata{
-    padding-left:  10px;
+table tbody .tdata {
+  padding-left: 10px;
 }
-table tr:nth-child(even){
-    background-color: #e9e9e9;
+table tr:nth-child(even) {
+  background-color: #e9e9e9;
 }
-table tr:nth-child(odd){
-    background-color:#d3d3d3 ;
-
+table tr:nth-child(odd) {
+  background-color: #d3d3d3;
 }
-table tr:last-child{
-    background-color: gray;
+table tr:last-child {
+  background-color: gray;
 }
 
-.total{
-    background-color: grey;
-    text-align: left;
-    color: white;
-    
+.total {
+  background-color: grey;
+  text-align: left;
+  color: white;
 }
-.total td{
-    padding-right: 8%;
-    text-transform: uppercase;
-    text-align: right;
-
+.total td {
+  padding-right: 8%;
+  text-transform: uppercase;
+  text-align: right;
 }
-table tbody td.image:last-child::before{
-    font-family: "Font Awesome 5 Free";
-    content:"\f044\f2ed";
-    font-size: 1.3rem;
-    letter-spacing: 1rem;
-    padding-left: 1rem;
-    
-   
+table tbody td.image:last-child::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f044\f2ed";
+  font-size: 1.3rem;
+  letter-spacing: 1rem;
+  padding-left: 1rem;
 }
 
-table tr .tdata{
-    font-size: 1.4rem;
+table tr .tdata {
+  font-size: 1.4rem;
 }
-button{
-    height: 4rem;
-    width: 14rem;
-    float: right;
-    margin-top: 2rem;
-    margin-right: 1rem;
-    background-color: rgb(87, 131, 6);
-    color: white;
-    font-size: 1.5rem;
+button {
+  height: 4rem;
+  width: 14rem;
+  float: right;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  background-color: rgb(87, 131, 6);
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
-#btn1::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f07a";
-    color: black;
-    padding-right: 8px;
-    
+#btn1::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f07a";
+  color: black;
+  padding-right: 8px;
 }
 
-#btn2::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f09d";
-    color: black;
-    padding-right: 8px;
-    
+#btn2::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f09d";
+  color: black;
+  padding-right: 8px;
 }
-table tr .last:last-child{
-    width: 6%;
-    background-color: white;
+table tr .last:last-child {
+  width: 6%;
+  background-color: white;
 }
